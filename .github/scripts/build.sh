@@ -10,4 +10,4 @@ printenv
 
 rm -rf ./out
 
-npm run build
+yarn run build
