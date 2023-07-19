@@ -1,11 +1,11 @@
 
 name: Sonar Build & Scan
 on:
-  push:
-    branches:
-      - dev
-  pull_request:
-    types: [opened, synchronize, reopened]
+  #push:
+    #branches:
+     # - dev
+  #pull_request:
+   # types: [opened, synchronize, reopened]
   workflow_dispatch:
   workflow_call:
 jobs:
