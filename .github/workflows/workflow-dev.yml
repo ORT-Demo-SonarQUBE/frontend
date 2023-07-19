@@ -15,6 +15,8 @@ concurrency:
 jobs:
   SonarTest:
     uses: ./.github/workflows/sonarscan.yml
+    secrets:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   build-dev:
     uses: ./.github/workflows/deploy-to-s3.yml
     with:
